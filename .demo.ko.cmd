@@ -1,0 +1,1 @@
+cmd_/home/tushar/DeviceDrivers/demo.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/tushar/DeviceDrivers/demo.ko /home/tushar/DeviceDrivers/demo.o /home/tushar/DeviceDrivers/demo.mod.o ;  true
